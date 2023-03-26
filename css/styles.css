@@ -4,6 +4,7 @@
   --brand-gray: #757575;
   --brand-bluegray: #f5f4fa;
   --brand-darkgray: #2f303a;
+  --portfolio-border-gray: #eeeeee;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -40,6 +41,7 @@ ul {
 .section-header {
   display: flex;
   justify-content: center;
+  border-bottom: #ececec 1px solid;
 }
 .section-header .logo {
   margin: 24px 0 24px 0;
@@ -102,21 +104,25 @@ ul {
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
+.order-button:hover {
+  cursor: pointer;
+}
 .solution-opinions {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.solution-opinions li {
-  font-size: 14px;
-}
 .opinion-header {
+  margin-bottom: 10px;
   color: var(--brand-black);
+  font-size: 14px;
   font-weight: 700;
 }
 .opinion-text {
+  margin: 0;
   width: 270px;
   color: var(--brand-gray);
+  font-size: 14px;
   font-weight: 400;
 }
 .main-page-opinions {
@@ -185,6 +191,7 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 .our-projects {
+  padding-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -194,6 +201,7 @@ ul {
 .section-filter-buttons {
   display: flex;
   justify-content: center;
+  padding-bottom: 0px;
 }
 .filter-buttons-list {
   display: flex;
@@ -217,9 +225,30 @@ ul {
   cursor: pointer;
 }
 .projects-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
   padding: 0;
 }
 .project-card {
+  border-color: var(--portfolio-border-gray);
+  border-style: solid;
+  border-width: 1px;
+}
+.project-card-header {
+  color: var(--brand-black);
+  margin: 20px 0 0 24px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.project-card-desc {
+  color: var(--brand-gray);
+  margin: 20px 0 20px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
 }
 .address-list {
   display: flex;
