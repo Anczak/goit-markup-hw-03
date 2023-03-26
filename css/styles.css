@@ -71,7 +71,8 @@ ul {
 }
 .section-footer {
   background-color: var(--brand-darkgray);
-  padding: 0 0 0 215px;
+  display: flex;
+  justify-content: center;
 }
 .order-solution {
   background-color: var(--brand-darkgray);
@@ -82,7 +83,7 @@ ul {
 }
 .order-header {
   margin: 0 0 30px 0;
-  width: 696px;
+  max-width: 696px;
   text-align: center;
   color: white;
   font-size: 44px;
@@ -95,13 +96,12 @@ ul {
   border-radius: 4px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  width: 200px;
-  height: 50px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
   color: white;
   background-color: var(--brand-blue);
-  text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 .order-button:hover {
@@ -117,13 +117,17 @@ ul {
   color: var(--brand-black);
   font-size: 14px;
   font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .opinion-text {
   margin: 0;
-  width: 270px;
+  max-width: 270px;
   color: var(--brand-gray);
   font-size: 14px;
   font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .main-page-opinions {
   display: flex;
@@ -267,6 +271,7 @@ ul {
 .links {
   color: var(--brand-black);
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 .links:hover,
 .links:active {
@@ -275,6 +280,7 @@ ul {
 .contact {
   color: var(--brand-gray);
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 .contact:hover,
 .contact:focus {
@@ -287,6 +293,7 @@ ul {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 footer .logo {
