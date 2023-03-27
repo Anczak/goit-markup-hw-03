@@ -15,6 +15,9 @@ body {
   letter-spacing: 0.03em;
   font-family: var(--font-primary);
 }
+header {
+  border-bottom: #ececec 1px solid;
+}
 ul {
   list-style: none;
 }
@@ -26,8 +29,9 @@ ul {
   width: 100%;
   max-width: 1200px;
 }
-header.section-header > div {
+header > div {
   display: flex;
+  padding: 25px 0;
 }
 .container-solution {
   display: flex;
@@ -45,12 +49,7 @@ header.section-header > div {
   flex-direction: column;
   padding: 60px 0 60px 0;
 }
-.section-header {
-  padding: 25px 0;
-  margin: 0 auto;
-  border-bottom: #ececec 1px solid;
-}
-.section-header .logo {
+header .logo {
   margin-right: 93px;
 }
 .section-header-nav {
