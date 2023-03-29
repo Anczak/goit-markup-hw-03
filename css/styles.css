@@ -38,7 +38,7 @@ header > div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 113px 0 113px 0;
+  padding: 133px 0;
 }
 .container-opinions {
   display: flex;
@@ -47,7 +47,7 @@ header > div {
 .container-footer {
   display: flex;
   flex-direction: column;
-  padding: 60px 0 60px 0;
+  padding: 60px 0;
 }
 header .logo {
   margin-right: 93px;
@@ -58,7 +58,6 @@ header .logo {
 .section-header-list {
   font-weight: 500;
   font-size: 14px;
-  padding: 0;
   margin-right: 364px;
   display: flex;
   align-items: center;
@@ -68,7 +67,6 @@ header .logo {
 .section-header-contact-list {
   font-weight: 500;
   font-size: 14px;
-  padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -101,15 +99,13 @@ header .logo {
   padding: 10px 41px 10px 42px;
   border-radius: 4px;
   border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   color: white;
   background-color: var(--brand-blue);
   letter-spacing: 0.06em;
-}
-.order-button:hover {
   cursor: pointer;
 }
 .solution-opinions {
@@ -126,7 +122,6 @@ header .logo {
   text-transform: uppercase;
 }
 .opinion-text {
-  margin: 0;
   max-width: 270px;
   color: var(--brand-gray);
   font-size: 14px;
@@ -135,7 +130,7 @@ header .logo {
 .main-page-opinions {
   display: flex;
   justify-content: center;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 .our-work-section {
   display: flex;
@@ -150,7 +145,6 @@ header .logo {
   text-align: center;
 }
 .our-work-list {
-  padding: 0;
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -168,7 +162,6 @@ header .logo {
   text-align: center;
 }
 .our-team-list {
-  padding: 0;
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -187,9 +180,9 @@ header .logo {
   flex-direction: column;
   align-items: center;
   background-color: white;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+    0 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
 }
 .our-projects {
   display: flex;
@@ -199,26 +192,23 @@ header .logo {
 .filter-buttons-list {
   display: flex;
   justify-content: center;
-  padding: 0;
-  margin: 0;
   gap: 8px;
 }
 .filter-button {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 16px;
-
   line-height: 26px;
   color: var(--brand-black);
-  padding: 6px 22px 6px 22px;
+  padding: 6px 22px;
   background-color: var(--brand-bluegray);
   border-radius: 4px;
   border: none;
+  cursor: pointer;
 }
 .filter-button:hover {
   background-color: var(--brand-blue);
   color: white;
-  cursor: pointer;
 }
 .projects-list {
   display: flex;
@@ -226,7 +216,6 @@ header .logo {
   flex-wrap: wrap;
   margin-top: 50px;
   gap: 30px;
-  padding: 0;
 }
 .project-card {
   border: var(--portfolio-border-gray) solid 1px;
@@ -249,8 +238,6 @@ header .logo {
   flex-direction: column;
   gap: 9px;
   font-style: normal;
-  margin: 0;
-  padding: 0;
   color: white;
 }
 .address-element {
